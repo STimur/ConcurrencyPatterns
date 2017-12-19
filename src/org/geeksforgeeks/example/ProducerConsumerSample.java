@@ -65,7 +65,7 @@ public class ProducerConsumerSample {
 
         private void randomRest() throws InterruptedException {
             if (Math.random() < 0.5)
-                Thread.sleep(1000);
+                Thread.sleep(0, 1);
         }
     }
 }
